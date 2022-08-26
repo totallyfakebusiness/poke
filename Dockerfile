@@ -9,4 +9,6 @@ RUN go build -o /serve
 
 EXPOSE 3000
 
+USER root
+
 CMD [ "/serve" ]
