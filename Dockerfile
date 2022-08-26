@@ -1,5 +1,7 @@
 FROM golang:1.18-alpine
 
+LABEL org.opencontainers.image.authors="Patrick Easters"
+
 WORKDIR /app
 
 COPY . ./
